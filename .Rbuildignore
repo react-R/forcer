@@ -1,0 +1,6 @@
+^forcer\.Rproj$
+^\.Rproj\.user$
+^node_modules
+^srcjs
+^LICENSE\.md$
+^README\.Rmd$

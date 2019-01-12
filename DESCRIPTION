@@ -1,0 +1,37 @@
+Package: forcer
+Version: 0.0.0.9000
+Date: 2019-01-12
+Title: 'htmlwidget' for 'react-force-graph'
+Description: Creates interactive force directed graphs using the components from 'react-force-graph'.
+Authors@R: c(
+      person(
+        "Vasco", "Asturiano"
+        , role = c("aut", "cph")
+        , comment = "react-force-graph library, https://github.com/vasturiano/react-force-graph"
+      ),
+      person(
+        "Mike", "Bostock"
+        , role = c("aut", "cph")
+        , comment = "d3.js library, http://d3js.org"
+      ),
+      person(
+        "Kent", "Russell"
+        , role = c("aut", "cre")
+        , comment = "R interface"
+        , email = "kent.russell@timelyportfolio.com"
+      )
+    )
+Maintainer: Kent Russell <kent.russell@timelyportfolio.com>
+URL: https://github.com/react-R/forcer
+BugReports: https://github.com/react-R/forcer/issues
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+ByteCompile: true
+RoxygenNote: 6.1.1
+Imports: 
+    htmltools,
+    htmlwidgets,
+    d3r
+Suggests: 
+    igraph
